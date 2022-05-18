@@ -1,0 +1,57 @@
+.sec12 {
+  height: 309px;
+  background: #f2f4f6;
+}
+.online-plans {
+  height: 309px;
+}
+.heading-on-plan {
+  margin-top: 46px;
+  font-size: 18px;
+}
+.parent-click-2-groups {
+  height: 155px;
+  margin-top: 19px;
+}
+.click-2-groups {
+  position: relative;
+  background: #ffffff;
+  width: 277px;
+  height: 155px;
+  padding: 17px 0 0 19px;
+}
+.click-2-groups:hover {
+  box-shadow: 0.5px 0.87px 7px #00000038;
+  opacity: 1;
+}
+.first-p-click {
+  font-size: 15px;
+  color: #333333;
+  font-weight: bold;
+}
+.second-p-click {
+  font-size: 14px;
+  color: #798791;
+  margin-top: 4px;
+}
+#click-2-span {
+  color: #d51d25;
+  font-size: 14px;
+}
+.a-buy-o {
+  position: absolute;
+  top: 115px;
+}
+.a-buy-o a {
+  color: white;
+  background: #d51d25;
+  text-decoration: none;
+  padding: 7px 25px;
+}
+.a-buy-o img {
+  position: relative;
+  left: 9px;
+}
+.first-p-click-copy {
+  color: #05396e;
+}

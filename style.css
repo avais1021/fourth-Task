@@ -1,0 +1,101 @@
+@import "header.css";
+@import "sec1.css";
+@import "sec2.css";
+@import "sec4.css";
+@import "sec5.css";
+@import "sec6.css";
+@import "sec7.css";
+@import "sec8.css";
+@import "sec9.css";
+@import "sec10.css";
+@import url(sec11.css);
+@import "sec12.css";
+@import "sec13.css";
+@import "sec14.css";
+@import "sec15.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Source Sans Pro", sans-serif; */
+  font-family: "Source Sans Pro";
+}
+body {
+  /* width: 100vw; */
+  /* overflow-x: hidden; */
+}
+/* @@@ */
+.for-margin-issue {
+  display: inline-block;
+}
+/* @@@ */
+
+.container {
+  width: 1166px;
+  margin: 0 auto;
+  border: 2px solid transparent;
+}
+.container2 {
+  width: 1254px;
+  margin: 0 auto;
+  border: 2px solid transparent;
+}
+.container-no-b {
+  /* border: 1px solid red; */
+  width: 1254px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-bb {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-d {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-e {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* //responsive */
+.responsive-header {
+  display: none;
+}
+
+.pro-cat {
+  display: none;
+}
+.ex-br-ir {
+  display: none;
+}
+.owl-carousel {
+}

@@ -1,0 +1,58 @@
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .banner {
+    height: 465px;
+  }
+  .fast-child {
+    width: 382px;
+  }
+  .info-fast {
+    padding-right: 10px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (min-width: 470px) and (max-width: 800px) {
+  .sec7 {
+    height: 550px;
+  }
+  .sec15-3 {
+    height: 137px;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 470px) {
+  .childs-online-parent {
+    width: 343px;
+  }
+  .branch {
+    width: 291px;
+  }
+  .all-day-p {
+    position: relative;
+    top: -74px;
+    left: 175px;
+    width: 125px;
+  }
+  .call-us-copy {
+    height: 97px;
+  }
+  .bsi-info p {
+    font-size: 8px;
+    line-height: 1.7;
+  }
+  .awarded-e p {
+    font-size: 11px;
+  }
+  .sec14 {
+    height: 694px;
+  }
+  .sec15-3 {
+    height: 216px;
+  }
+}
+@media screen and (min-width: 468px) and (max-width: 712px) {
+  .sec15-3 {
+    height: 160px;
+  }
+}
+/* 724 468 */

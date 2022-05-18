@@ -1,0 +1,97 @@
+.sec9 {
+  height: 545px;
+  background: #ebf3f9;
+}
+.awards-parent {
+  /* margin-top: 30px; */
+
+  /* height: 420px; */
+  /* width: ;
+    margin: 0 auto; */
+}
+.childs-awards-parent {
+  position: relative;
+  width: 350px;
+  height: 420px;
+  background: white;
+}
+.childs-awards-parent:hover:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 10px solid #d51d25;
+  border-left: 10px solid #d51d25;
+  left: 0;
+  top: 0;
+}
+.childs-awards-parent:hover:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-right: 10px solid #d51d25;
+  border-bottom: 10px solid #d51d25;
+  right: 0;
+  bottom: 0;
+}
+.childs-awards-parent:hover {
+  box-shadow: 0.5px 0.87px 7px #00000038;
+}
+.img-1-1 {
+  width: 34px;
+  height: 39px;
+  margin: 26px auto 0 auto;
+}
+.similar-copy2 {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+.indian-2015 {
+  width: 171px;
+  height: 165px;
+  background: url(images/sec9-images/sec9-img-1-2.png) no-repeat center
+    center/cover;
+  margin: 33px auto 0 auto;
+  padding-top: 89px;
+}
+.indian-2015 p {
+  font-size: 13px;
+  color: #333333;
+  text-align: center;
+}
+.dots {
+  width: 29px;
+  height: 4.5px;
+  margin: 20px auto 0 auto;
+}
+.awards-link {
+  border: 1px solid #91a5ad;
+  color: #d51d25;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 11px 22px;
+  margin-top: 37px;
+}
+.awards-link:hover {
+  border: 2px solid #d51d25;
+}
+.praesent {
+  font-size: 16px;
+  color: #333333;
+  text-align: center;
+  margin-top: 41px;
+  line-height: 1.5;
+}
+.jaya {
+  font-size: 14px;
+  color: #717171;
+  text-align: center;
+  margin-top: 19px;
+  line-height: 1.5;
+}
+.pra-change {
+  line-height: 1.2;
+}

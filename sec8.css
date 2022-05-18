@@ -1,0 +1,123 @@
+.sec8 {
+  height: 428px;
+}
+.similar-copy1 {
+  margin: 20px auto;
+}
+
+.life-insurance-parent {
+}
+.left-child {
+  background: #005e9e;
+  width: 55%;
+  height: 340px;
+}
+.right-child {
+  width: 45%;
+  height: 340px;
+}
+.r-c {
+  background: #0368ad;
+  height: 170px;
+}
+.r-c-1 {
+  background: #8addff;
+  height: 170px;
+}
+.life-is-one {
+  
+  position: relative;
+  border: 1px solid #8addff;
+  width: 607px;
+  height: 210px;
+  margin-top: 40px;
+  margin-left: 107px;
+  margin-right: 68px;
+}
+.life-is-one:hover:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 10px solid #d51d25;
+  border-left: 10px solid #d51d25;
+  left: -5px;
+  top: -5px;
+}
+.life-is-one:hover:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-right: 10px solid #d51d25;
+  border-bottom: 10px solid #d51d25;
+  right: -5px;
+  bottom: -5px;
+}
+.life-is-one p {
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 32px;
+}
+.life-is-one :nth-child(2) {
+  font-size: 16px;
+  color: #acd7f5;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.our-team {
+  background: #0368ad;
+  width: 473px;
+  height: 47px;
+  margin: 24px auto;
+}
+.our-team pre {
+  text-align: center;
+  color: #69d3ff;
+  font-size: 15px;
+}
+.our-team span {
+  color: white;
+}
+.onetwo-insurance {
+}
+.one-ins {
+  width: 193px;
+  padding-right: 15px;
+}
+.two-ins {
+  width: 198px;
+  border-left: 1px #69d3ff dashed;
+  padding-left: 15px;
+}
+
+.one-ins p {
+  color: white;
+  font-size: 45px;
+}
+.two-ins p {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+.families-sp {
+  font-weight: 100;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+/* 88888888888888888888888888888 */
+.r-c-1 {
+}
+.financial {
+  position: relative;
+  top: 33px;
+}
+.nintee {
+  font-size: 45px;
+  font-weight: bold;
+  color: #012a47;
+}
+.nintee :nth-child(2) {
+  font-size: 18px;
+}

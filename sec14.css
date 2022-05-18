@@ -1,0 +1,39 @@
+.sec14 {
+  height: 329px;
+  background: #eaedef;
+}
+
+.popular-parent {
+  width: 1039px;
+  height: 329px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-links p {
+  color: #05396e;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 23px;
+}
+
+.heading-popu {
+  color: #05396e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.parent-p-links-1-2 {
+  width: 391px;
+  margin-top: 21px;
+}
+.p-link-1-2 ul {
+  color: #005e9e;
+  font-size: 15px;
+  margin-left: 20px;
+  line-height: 1.8rem;
+  font-weight: bold;
+}
+.parent-p-links-1-2 a {
+  text-decoration: none;
+  color: #005e9e;
+}

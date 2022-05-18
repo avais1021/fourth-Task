@@ -1,0 +1,78 @@
+.sec7 {
+  background: #eaf7fd;
+  height: 501px;
+  padding-top: 49px;
+}
+.similar-copy {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+.parent-calculators {
+  padding-bottom: 59px;
+}
+.use-our-r-p {
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  padding: 0 80px;
+}
+.human-parent {
+  width: 1090px;
+  margin: 0 auto;
+  margin-top: 34px;
+}
+.human-child {
+  position: relative;
+  width: 250px;
+  height: 160px;
+}
+.human-image-div {
+  height: 100px;
+  background: white;
+}
+
+.human-life {
+  height: 60px;
+  background: #d51d25;
+  overflow: hidden;
+  transition: height 1s linear;
+}
+.human-life:hover {
+  height: 100px;
+}
+.human-life:hover :nth-child(4) {
+  margin-top: -1px;
+}
+.human-life:hover .plus-life {
+  display: none;
+}
+.human-life img {
+  position: absolute;
+  top: 86px;
+  right: 10px;
+  /* margin-left: 206px;
+    margin-top: -15px; */
+  /* z-index: 100; */
+}
+.human-life p {
+  font-size: 16px;
+  font-weight: bold;
+  padding: unset;
+  text-align: unset;
+  margin-top: 23px;
+  margin-left: 30px;
+  color: white;
+}
+.human-life :nth-child(4) {
+  font-weight: unset;
+  text-align: start;
+  margin-left: 30px;
+  margin-top: 13px;
+}
+
+.knowledge-a-copy {
+  margin-top: 65px;
+  padding: 11px 40px;
+  width: 268px;
+  text-align: center;
+}

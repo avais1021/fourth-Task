@@ -1,0 +1,70 @@
+.line-hr {
+  height: 5px;
+  background: #d0dbe3;
+  opacity: 1;
+}
+.sec13 {
+  height: 66px;
+}
+.iso-parent {
+  height: 66px;
+}
+.isofirst-child {
+  height: 63px;
+  /* border-bottom: 1px solid #c5ccd1; */
+}
+.isosecond-child {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.res-bsi {
+  display: flex;
+}
+.bsi-info {
+  width: 383px;
+  height: 66px;
+  border-right: 1px solid #c5ccd1;
+}
+.bsi-info p {
+  color: #798691;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-left: 7px;
+}
+
+.secure {
+  width: 103px;
+  height: 66px;
+  border-right: 1px solid #c5ccd1;
+}
+.secure p {
+  font-size: 13px;
+  color: #798691;
+  margin-top: 3px;
+}
+.awarded-e {
+  width: 213px;
+  height: 66px;
+  border-right: 1px solid #c5ccd1;
+}
+.awarded-e p {
+  font-size: 13px;
+  color: #798691;
+  margin-left: 7px;
+}
+.net-bankgroup {
+  width: 94px;
+  height: 66px;
+  border-right: 2px solid #c5ccd1;
+}
+.net-bankgroup p {
+  font-size: 13px;
+  color: #798691;
+}
+.iso-parent-line {
+  height: 1px;
+  background-color: #c5ccd1;
+  border: none;
+}

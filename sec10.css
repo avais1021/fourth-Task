@@ -1,0 +1,141 @@
+.sec10 {
+  background-color: #005e9e;
+  height: 543px;
+}
+.howcanwe {
+  height: 543px;
+}
+.how-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 44px;
+}
+.buy-online-parent {
+  height: 266px;
+  background: url(images/sec10-images/sec10-img-bg.png) no-repeat center
+    center/cover;
+  margin-top: 35px;
+}
+.childs-online-parent {
+  width: 418px;
+  height: 266px;
+  padding: 0 40px;
+}
+.heading-child {
+  color: #05396e;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 19px;
+  margin-bottom: 8px;
+}
+.heading-child span {
+  color: #d51d25;
+}
+.call-us {
+  /* margin-top: 20px; */
+  border-bottom: 1px dashed #798791;
+}
+.change-call-u {
+  border-bottom: none;
+}
+.left-call {
+  /* width: 146px; */
+}
+.left-call p {
+  font-size: 15px;
+  color: #333333;
+  margin-left: 10px;
+}
+.all-days {
+  font-size: 14px;
+  color: #999999;
+}
+/* ***************** */
+.call-us {
+  padding: 12px 0;
+}
+.right-call p {
+  font-size: 15px;
+  color: #333333;
+}
+/* .left-c-copy{
+    width: 64px;
+} */
+.link-let-us {
+  text-decoration: none;
+  background: #d51d25;
+  color: white;
+  font-size: 13px;
+  padding: 6px 11px;
+}
+.copy-link-l-u {
+}
+/* ***********************CONTACT AN ADVISOR******* */
+.h-ch-copy {
+  margin-top: 55px;
+  margin-bottom: unset;
+}
+.branch {
+  width: 307px;
+  height: 60px;
+  background-image: url(images/sec10-images/branch-bg.png);
+  margin-top: 11px;
+}
+.left-branch {
+  width: 128px;
+  height: 60px;
+}
+.right-branch {
+  width: 178px;
+  height: 60px;
+}
+/* ************************* */
+.right-call-copy {
+  width: 200px;
+  position: relative;
+  top: -56px;
+  left: 247px;
+}
+.call-us-copy {
+  height: 80px;
+}
+.nri-service {
+  background: white;
+  width: 669px;
+  height: 78px;
+  margin-top: 23px;
+}
+.nri-left {
+  width: 141px;
+  height: 85px;
+  background: url(images/sec10-images/nri-service.png) no-repeat center
+    center/cover;
+}
+.nri-left p {
+  color: #05396e;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nri-right {
+  width: 528px;
+  height: 78px;
+  background: white;
+}
+.for-nri-span {
+  color: #999999;
+  font-size: 14px;
+}
+.copy-call-us-nri {
+  width: 235px;
+  border-bottom: none;
+}
+.copy-call-us-nri2 {
+  margin-top: -18px;
+}
+
+.copy-call-us-nri1 {
+  padding-right: 10px;
+  border-right: 1px dotted black;
+}

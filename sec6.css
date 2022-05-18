@@ -1,0 +1,135 @@
+.knowledge {
+  height: 626px;
+}
+.invest-parent {
+  width: 1090px;
+  margin: 0 auto;
+}
+.invest-child {
+  position: relative;
+  width: 340px;
+  height: 370px;
+  background: url(images/sec6-images/knowledge-box.png) no-repeat center
+    center/cover;
+  padding-top: 24px;
+  padding-left: 34px;
+}
+.invest-child:hover {
+  /* box-shadow: 1px 1px 3px rgb(180, 176, 176); */
+}
+.invest-child:hover:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 10px solid #d51d25;
+  border-left: 10px solid #d51d25;
+  left: 4px;
+  top: 4px;
+}
+.invest-child:hover:after {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-right: 10px solid #d51d25;
+  border-bottom: 10px solid #d51d25;
+  right: 2px;
+  bottom: 2px;
+  
+}
+.invest-child h4 {
+  color: #005e9e;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Knowledge-1-img {
+  margin-top: 30px;
+}
+.Knowledge-2-img {
+  margin-top: 54px;
+}
+.invest-child p {
+  color: #798791;
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 30px;
+  margin-top: 6px;
+}
+.invest-child span {
+  color: #d51d25;
+  font-weight: bold;
+}
+/* **************************** */
+.twitter-parent {
+  width: 219px;
+  margin-top: 16px;
+  margin-left: 88px;
+}
+.left-icons {
+  width: 110px;
+}
+.twitter {
+  width: 25px;
+  height: 26px;
+  background: url(images/sec6-images/n-Knowledge11.png) no-repeat center center,
+    url(/images/sec6-images/n-Knowledge1.png) no-repeat center center;
+}
+.google {
+  width: 25px;
+  height: 26px;
+  background: url(images/sec6-images/n-Knowledge22.png) no-repeat center center,
+    url(images/sec6-images/n-Knowledge2.png) no-repeat center center;
+}
+.fb {
+  width: 25px;
+  height: 26px;
+  background: url(images/sec6-images/n-Knowledge33.png) no-repeat center center,
+    url(images/sec6-images/n-Knowledge3.png) no-repeat center center;
+}
+.share-it {
+  width: 25px;
+  height: 26px;
+  background: url(images/sec6-images/n-Knowledge44.png) no-repeat center center,
+    url(images/sec6-images/n-Knowledge4.png) no-repeat center center;
+}
+/* ****  */
+.right-total p {
+  color: #798791;
+  font-size: 12px;
+  text-align: right;
+}
+.right-total span {
+  color: #0f5f9f;
+  font-size: 18px;
+}
+
+/* ************************** */
+.t-p-copy {
+  width: 134px;
+  margin-left: 172px;
+}
+.lft-i {
+  width: 25px;
+}
+.light-shareit {
+  width: 25px;
+  height: 26px;
+  background: url(images/sec6-images/n-Knowledge44grey.png) no-repeat center
+      center,
+    url(images/sec6-images/n-Knowledge4.png) no-repeat center center;
+}
+.knowledge-a{
+    background-color: #d51d25;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 11px 0px 11px 41px;
+    display: block;
+    width: 197px;
+    margin: 37px auto 0 auto;
+    
+}
+.knowledge a img{
+    margin-left: 14px;
+}

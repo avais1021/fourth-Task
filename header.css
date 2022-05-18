@@ -1,0 +1,112 @@
+.header-1 {
+  background-color: #005e9e;
+  display: flex;
+  align-items: center;
+}
+.header-1--left {
+  width: 22%;
+  margin-left: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+  font-size: 14px;
+}
+.header-1--left a {
+  text-decoration: none;
+  color: #6bc3ff;
+}
+#ind-white {
+  color: white;
+}
+
+.header-1--right {
+  width: 477px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 14px;
+}
+.header-1--right a {
+  text-decoration: none;
+  color: #6bc3ff;
+}
+
+.bell-men {
+  display: flex;
+  align-items: center;
+}
+.bell-men--bell {
+  background: url(images/header-images/header-1-rac.png) no-repeat center
+    center/cover;
+  padding: 11px 3px 11px 0px;
+  margin-right: 2px;
+}
+.bell-men--bell .img1 {
+  position: relative;
+  left: 17px;
+}
+.bell-men--bell .img2 {
+  position: relative;
+  left: 5px;
+  top: 3px;
+}
+.bell-men--bell .img3 {
+  position: relative;
+  left: -8px;
+  top: 1px;
+}
+.bell-men--men {
+  background: url(images/header-images/header-1-rac.png) no-repeat center
+    center/cover;
+  padding: 11px 15px;
+}
+/* *************************************************HEADER2************** */
+.header2 {
+  justify-content: space-between;
+}
+.left-header2 {
+  width: 855px;
+}
+.left-header2 ul {
+  width: 750px;
+  color: #333333;
+  list-style: none;
+  font-size: 15px;
+  margin-left: px;
+}
+.left-header2 li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-header2 li img {
+  margin-left: 5px;
+}
+/* ***************************************** */
+.right-header2 {
+  width: 186px;
+  border-left: 1px solid #ebf3f9;
+  padding-left: 15px;
+}
+
+.chatri {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #69d3ff;
+  width: 137px;
+  height: 76px;
+}
+.chatri select {
+  width: 18px;
+  background: none;
+  border: none;
+}
+#size {
+  font-size: 16px;
+  color: #012a47;
+  width: 88px;
+}

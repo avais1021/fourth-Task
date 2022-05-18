@@ -1,0 +1,164 @@
+.sec11 {
+  height: 196px;
+  background: #eaedef;
+}
+.stay-update {
+  height: 196px;
+}
+.stay-child-box {
+  width: 995px;
+  height: 196px;
+}
+.stay-child-1 {
+  width: 304px;
+  height: 196px;
+}
+.stay-child-2 {
+  width: 384px;
+}
+.stay-child-3 {
+  width: 190px;
+  height: 196px;
+}
+.heading-stay {
+  color: #05396e;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+.gethdgc-text {
+  color: #333333;
+  font-size: 14px;
+}
+.enter-subs-box {
+  width: 304px;
+  height: 35px;
+  margin-top: 17px;
+}
+.left-enter-sub {
+  width: 209px;
+  height: 35px;
+  background: white;
+}
+.right-enter-sub {
+  width: 94px;
+  height: 35px;
+}
+.left-enter-sub input {
+  color: #798791;
+  font-size: 14px;
+  border: none;
+  width: 200px;
+}
+.left-enter-sub input:focus {
+  outline: none;
+}
+.right-enter-sub a {
+  width: 94px;
+  height: 35px;
+  background: #d51d25;
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+.input-label {
+  margin-top: 12px;
+}
+/* .input-label:focus{
+    outline: none;
+} */
+.checkbox-1 {
+  width: 16px;
+  height: 16px;
+}
+
+.label-1 {
+  color: #798791;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.apple-an {
+  width: 74px;
+  height: 33px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.enter-subs-b-copy {
+  width: 381px;
+}
+.apple-android {
+  width: 34px;
+  height: 32px;
+  border: 1px solid #798791;
+  border-radius: 2px;
+  opacity: 0.6;
+}
+.logos-8 {
+  height: 82px;
+  margin-top: 20px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.f-t {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  background: url(images/sec10-images/stay-connected-1.svg) no-repeat center
+    center;
+  background-color: #798791;
+}
+/* @@@@@@ */
+
+/* @@@@@@ */
+
+
+
+
+.f-t-2 {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  background: url(images/sec10-images/stay-connected-2.svg) no-repeat center
+    center;
+  background-color: #798791;
+}
+.f-t-3 {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  background: url(images/sec10-images/youtube-arrow.png) no-repeat center center,url(images/sec10-images/stay-connected-3.svg) no-repeat center
+      center
+    ;
+    
+  background-color: #798791;
+}
+.f-t-4 {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  background: url(images/sec10-images/stay-connected-4.svg) no-repeat center
+    center;
+  background-color: #798791;
+}
+
+.f-t-5{
+    background: url(images/sec10-images/stay-connected-5.svg) no-repeat center
+    center;
+    background-color: #798791;
+}
+.f-t-6{background: url(images/sec10-images/stay-connected-6.svg) no-repeat center
+    center;
+background-color: #798791;
+}
+.f-t-7{background: url(images/sec10-images/stay-connected-7.svg) no-repeat center
+    center;
+background-color: #798791;
+}
+.f-t-8{background: url(images/sec10-images/stay-connected-8.svg) no-repeat center
+    center;
+background-color: #798791;
+}
