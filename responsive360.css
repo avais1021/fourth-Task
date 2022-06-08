@@ -57,4 +57,9 @@
     height: 160px;
   }
 }
+
+@media screen and (max-width:364.9px){
+ .sec15{ padding-top: 20px;
+ }
+}
 /* 724 468 */
