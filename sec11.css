@@ -14,7 +14,7 @@
   height: 196px;
 }
 .stay-child-2 {
-  width: 384px;
+  max-width: 384px;
 }
 .stay-child-3 {
   width: 190px;
@@ -86,7 +86,7 @@
 }
 
 .enter-subs-b-copy {
-  width: 381px;
+  max-width: 381px;
 }
 .apple-android {
   width: 34px;

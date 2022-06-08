@@ -13,6 +13,11 @@
   box-shadow: 
   2px 2px 6px rgb(180, 176, 176);
 }
+
+.ss1-share-heart{
+  display: flex;
+  justify-content: right;
+}
 .share-heart {
   width: 60px;
   height: 28px;

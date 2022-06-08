@@ -45,7 +45,7 @@
   margin-top: 3px;
 }
 .awarded-e {
-  width: 213px;
+  max-width: 213px;
   height: 66px;
   border-right: 1px solid #c5ccd1;
 }
