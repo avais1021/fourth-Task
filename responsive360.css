@@ -62,4 +62,10 @@
  .sec15{ padding-top: 20px;
  }
 }
+
+@media screen and (max-width:613.9px){
+  .contents .five-plan{
+    flex-direction: column;
+  }
+}
 /* 724 468 */
