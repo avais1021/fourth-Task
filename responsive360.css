@@ -68,4 +68,10 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width:362.9px){
+  .section1 .know-calculate a {
+      font-size: 13px;
+  }
+}
 /* 724 468 */
