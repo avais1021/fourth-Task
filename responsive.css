@@ -4,77 +4,96 @@
   .container {
     width: 100%;
   }
+
   .container2 {
     width: 100%;
   }
+
   .container-no-b {
     width: 100%;
   }
+
   .left-header2 {
     width: 100%;
   }
+
   /* ///// */
   .header-desktop {
     display: none;
   }
+
   .bell-men {
     justify-content: space-between;
     width: 139px;
   }
+
   .bell-men--bell {
     margin-right: unset;
     border-radius: 50px;
   }
+
   .bell-men--men {
     border-radius: 50px;
   }
+
   .r-header {
     padding: 12px 20px 12px 20px;
   }
+
   .responsive-header {
     display: block;
   }
+
   .banner {
     height: 435px;
-    background: url(images/responsive-images/mobibe-banner.png) no-repeat center
-      center/cover;
+    background: url(images/responsive-images/mobibe-banner.png) no-repeat center center/cover;
   }
+
   .protect::before {
     opacity: 0.7;
     height: 400px;
   }
+
   .protect {
     width: 92%;
     height: 400px;
     margin: 0 auto;
     align-items: flex-start;
   }
+
   .text-protect {
     width: 92%;
     height: 358px;
   }
+
   .know-calculate {
     /* width: 290px; */
     margin: 15px auto 0 auto;
   }
+
   .contents .five-plan {
     margin-top: 25px;
     line-height: 1.6;
   }
+
   .contents h3 {
     margin-top: 47px;
   }
+
   /* ******* */
   .help-search {
     width: 100%;
     display: unset;
   }
+
   .help {
     top: -145px;
   }
+
   .category {
     width: unset;
   }
+
   .search {
     position: relative;
     top: -55px;
@@ -86,17 +105,21 @@
     width: 80%;
     margin: 0 auto;
   }
+
   .pro-cat {
     display: block;
   }
+
   .pro-cat-1 {
     display: none;
   }
+
   .trending {
     width: 100%;
     overflow-x: scroll;
   }
-  .content-trending{
+
+  .content-trending {
     margin-right: 20px;
   }
 
@@ -104,26 +127,31 @@
   .benifits-factor {
     width: 100%;
   }
+
   .benifits {
     width: 37%;
     height: 57px;
     padding: 5px 3px;
   }
+
   .factors {
     width: 60%;
     height: 57px;
     padding: 5px 3px;
     justify-content: start;
   }
+
   .benifits img {
     top: 32px;
   }
+
   .fast-eco-parent {
     width: 100%;
     height: 225px;
     margin: 17px auto 0 auto;
     flex-direction: column;
   }
+
   .sec5 {
     height: 749px;
   }
@@ -136,55 +164,71 @@
     /* width: 66%; */
     padding-right: 10px;
   }
+
   .factors p {
     margin-left: 26px;
   }
+
   .use-our-r-p {
     position: relative;
     top: 12px;
     text-align: unset;
     padding: 0px 30px;
   }
+
   .sec7 {
     height: 649px;
   }
+
   .human-parent {
     margin-top: 62px;
   }
+
   .life-is-one {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 36px;
   }
+
   .our-team {
     width: 100%;
   }
+
   .life-is-one p {
-    font-size: 11px;
+    font-size: 17px;
   }
+
   .sec8 {
     height: 811px;
   }
+
   .life-insurance-parent {
     display: unset;
   }
+
   .left-child {
     width: 100%;
     display: inline-block;
   }
+
   .right-child {
     width: 100%;
   }
+
   .our-team pre {
     font-size: 13px;
-    width: 100%;  }
+    width: 100%;
+  }
+
   .one-ins {
     width: 154px;
   }
+
   .one-ins p {
     font-size: 31px;
   }
+
   .one-ins img {
     width: 204px;
   }
@@ -193,6 +237,7 @@
     background-color: #005e9e;
     height: 1072px;
   }
+
   .buy-online-parent {
     background: none;
     display: flex;
@@ -201,28 +246,34 @@
     justify-content: space-between;
     height: 830px;
   }
+
   .childs-online-parent {
     background: #ffffff;
   }
+
   .nri-right {
     width: 275px;
     flex-direction: column;
   }
+
   .nri-service {
     width: 100%;
   }
+
   .copy-call-us-nri1 {
     border-bottom: 1px dotted black;
     border-right: unset;
     padding-top: unset;
     padding-bottom: 4px;
   }
+
   /* .right-call-copy {
     width: 88px;
   } */
   .call-us {
     /* padding: unset; */
   }
+
   .copy-call-us-nri2 {
     padding-top: unset;
     padding-bottom: unset;
@@ -232,9 +283,11 @@
   .sec11 {
     height: 528px;
   }
+
   .stay-update {
     height: 528px;
   }
+
   .stay-child-box {
     width: 90%;
     height: 528px;
@@ -246,40 +299,50 @@
   .stay-child-3-copy {
     width: 100%;
   }
+
   .row-1-logo {
     width: 48%;
   }
+
   .logos-8 {
     margin-top: unset;
     flex-direction: unset;
   }
+
   .left-enter-sub {
     width: 167px;
   }
+
   .sec13 {
     height: 133px;
   }
+
   .isofirst-child {
     flex-direction: column;
     height: 131px;
   }
+
   .bsi-info {
     width: 100%;
     border-right: unset;
     border-bottom: 1px solid rgb(197, 204, 209);
     justify-content: center;
   }
-  .res-bsi {
-  }
+
+  .res-bsi {}
+
   .awarded-e {
     border-right: 1px solid transparent;
   }
+
   .rsp-sec13 {
     height: 66px;
   }
+
   .sec14 {
     height: 618px;
   }
+
   .popular-parent {
     width: 100%;
     height: auto;
@@ -289,21 +352,27 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .parent-p-links-1-2 {
     width: 95%;
   }
+
   .popu-marg-iss {
     width: 100%;
   }
+
   .popular-links {
     width: 80%;
   }
+
   .sec15-3 {
     height: 197px;
   }
+
   .ex-br-ir {
     display: block;
   }
+
   .beware-of {
     width: 92%;
     height: 94px;
@@ -313,18 +382,22 @@
   .sec15-1 {
     height: 140px;
   }
+
   .do-not-p {
     width: 92%;
     height: 140px;
     margin: 0 auto;
     text-align: justify;
   }
+
   .do-not-p a {
     display: none;
   }
+
   .sec15-2 {
     height: 130px;
   }
+
   .standard-life-p {
     width: 90%;
     /* height: 325px; */
@@ -333,58 +406,82 @@
     text-align: justify;
     margin: 0 auto;
   }
+
   .standard-life-p p {
     margin-top: unset;
   }
+
   .r-s-list-chart {
     display: block;
   }
+
   .life {
     width: 100%;
     overflow-x: scroll;
   }
+
   .life-child {
-    margin-left: 30px;
+    margin-left: 22px;
   }
   .invest-parent {
     width: 100%;
     overflow-x: scroll;
   }
+
   .rsp-human-parent {
     width: 100%;
     overflow-x: scroll;
   }
+
   .awards-parent.flex-b {
     width: 798px;
   }
+
   .rsp-award-parent {
     width: 100%;
     overflow-x: scroll;
   }
+
   .parent-click-2-groups {
     width: 895px;
   }
+
   .rsp-parent-click {
     width: 100%;
     overflow-x: scroll;
   }
+
   .click-2-groups {
     margin-left: 6px;
   }
+
   .human-child {
     height: 225px;
   }
+
   .knowledge-a-copy {
     margin-top: unset;
   }
+
   .dots {
     height: 6px;
   }
+
   .contents {
     margin-left: unset;
     margin-top: 33px;
     padding-right: 12px;
   }
+
+  .category p {
+    margin-right: 8px;
+  }
+
+  .life-child h5{
+    font-size: 19px;
+  }
+
+ 
   /* .owl-carousel {
     display: block;
   } */

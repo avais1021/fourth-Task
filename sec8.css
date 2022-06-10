@@ -10,7 +10,7 @@
 .left-child {
   background: #005e9e;
   width: 55%;
-  height: 340px;
+  min-height: 340px;
 }
 .right-child {
   width: 45%;
@@ -29,7 +29,8 @@
   position: relative;
   border: 1px solid #8addff;
   width: 607px;
-  height: 210px;
+  /* min-height: 210px; */
+  padding-bottom: 32px;
   margin-top: 40px;
   margin-left: 107px;
   margin-right: 68px;
