@@ -85,4 +85,19 @@
     }
 }
 
+@media screen and (min-width:801px){
+  .container{
+    padding: 0 20px;
+  }
+  .container2{
+    padding: 0 20px;
+
+  }
+}
+
+.content-trending img{
+  width: 50px !important;
+  height: 50px;
+}
+
 /* 724 468 */

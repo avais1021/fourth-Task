@@ -184,7 +184,7 @@
     <section class="section2">
       <div class="container">
         <div class="support">
-          <div class="trending flex-bb">
+          <div class="trending flex-bb owl-carousel">
 
             <div class="content-trending active-c-t">
               <img src="images/sec2-images/tren1.png" alt="1" />
@@ -193,8 +193,8 @@
                 PLANS
               </p>
             </div>
-            <div class="content-trending">
 
+            <div class="content-trending">
               <img src="images/sec2-images/tren2.png" alt="" />
               <p>
                 COMBO <br />
@@ -203,41 +203,37 @@
             </div>
 
             <div class="content-trending">
-
               <img src="images/sec2-images/tren3.png" alt="" />
               <p>
                 PROTECTION <br />
                 PLANS
               </p>
-
             </div>
-            <div class="content-trending">
 
+            <div class="content-trending">
               <img src="images/sec2-images/tren4.png" alt="" />
               <p>
                 RETIREMENT <br />
                 PLANS
               </p>
-
             </div>
-            <div class="content-trending">
 
+            <div class="content-trending">
               <img src="images/sec2-images/tren5.png" alt="" />
               <p>
                 INVESTMENT <br />
                 PLANS
               </p>
-
             </div>
-            <div class="content-trending">
 
+            <div class="content-trending">
               <img src="images/sec2-images/tren6.png" alt="" />
               <p>
                 HEALTH <br />
                 PLANS
               </p>
-
             </div>
+
             <div class="content-trending">
               <img src="images/sec2-images/tren7.png" alt="" />
               <p>
@@ -245,6 +241,7 @@
                 PLANS
               </p>
             </div>
+
             <div class="content-trending">
               <img src="images/sec2-images/tren8.png" alt="" />
               <p>
@@ -252,6 +249,7 @@
                 PLANS
               </p>
             </div>
+
           </div>
         </div>
       </div>
@@ -292,16 +290,16 @@
                 non-tobacco users.
               </p>
             </div>
-            
-                <div class="onetwo">
-                  <p>1234567 <span>Families Secured</span></p>
-                  <img src="images/sec3-images/family-img.png" alt="family" />
-                </div>
-                <div class="know-calculate copy-k-c flex-b">
-                  <a href="">KNOW MORE</a>
-                  <a href="">CALCULATE PREMIUM</a>
-                </div>
-          
+
+            <div class="onetwo">
+              <p>1234567 <span>Families Secured</span></p>
+              <img src="images/sec3-images/family-img.png" alt="family" />
+            </div>
+            <div class="know-calculate copy-k-c flex-b">
+              <a href="">KNOW MORE</a>
+              <a href="">CALCULATE PREMIUM</a>
+            </div>
+
           </div>
           <!-- ******************** -->
           <div class="life-child">
@@ -332,16 +330,16 @@
                 8 fund options to choose from as per your investment style.
               </p>
             </div>
-            
-                <div class="onetwo">
-                  <p>1234567 <span>Families Secured</span></p>
-                  <img src="images/sec3-images/family-img.png" alt="family" />
-                </div>
-                <div class="know-calculate copy-k-c flex-b">
-                  <a href="">KNOW MORE</a>
-                  <a href="">CALCULATE PREMIUM</a>
-                </div>
-            
+
+            <div class="onetwo">
+              <p>1234567 <span>Families Secured</span></p>
+              <img src="images/sec3-images/family-img.png" alt="family" />
+            </div>
+            <div class="know-calculate copy-k-c flex-b">
+              <a href="">KNOW MORE</a>
+              <a href="">CALCULATE PREMIUM</a>
+            </div>
+
           </div>
           <!-- ************ -->
           <div class="life-child">
@@ -1180,26 +1178,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript">
 
-      // if (matchMedia("(max-width: 767px)").matches) {
-      //   $('.owl-carousel').owlCarousel({
-      //     loop: true,
-      //     margin: 10,
-      //     nav: true,
-      //     items: 3,
-      //     slideToScrol: 1,
-      //     responsive: {
+    <script>
 
-      //       600: {
-      //         items: 5,
-      //       }
-      //     }
-      //   })
-      // } else {
-
-      // }
-
+     
+$('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            dots: true,
+            // autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
 
 
     </script>

@@ -32,12 +32,12 @@ body {
 /* @@@ */
 
 .container {
-  width: 1166px;
+  max-width: 1166px;
   margin: 0 auto;
   border: 2px solid transparent;
 }
 .container2 {
-  width: 1254px;
+  max-width: 1254px;
   margin: 0 auto;
   border: 2px solid transparent;
 }
