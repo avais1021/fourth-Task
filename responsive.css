@@ -106,6 +106,10 @@
     margin: 0 auto;
   }
 
+  .section2 .support {
+    width: 90%;
+  }
+
   .pro-cat {
     display: block;
   }
@@ -116,8 +120,11 @@
 
   .trending {
     width: 100%;
-    overflow-x: scroll;
   }
+
+  .trending {
+    margin-left: 11px;
+}
 
   .content-trending {
     margin-right: 20px;
@@ -416,12 +423,12 @@
   }
 
   .life {
-    width: 100%;
-    overflow-x: scroll;
+    width: 88%;
+    /* overflow-x: scroll; */
   }
 
   .life-child {
-    margin-left: 22px;
+    /* margin-left: 22px; */
   }
   .invest-parent {
     width: 100%;

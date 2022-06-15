@@ -95,6 +95,24 @@
   }
 }
 
+@media screen and (max-width:902.9px){
+  .header-1--left{
+    margin-left: 13px;
+  }
+}
+
+@media screen and (max-width:1047.9px){
+  .left-header2 {
+    width: 81%;
+}
+}
+
+@media screen and (max-width:993.9px){
+  .left-header2 ul {
+    font-size: 11px;
+  }
+}
+
 .content-trending img{
   width: 50px !important;
   height: 50px;

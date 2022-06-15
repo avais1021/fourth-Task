@@ -21,14 +21,17 @@
   /* font-family: "Source Sans Pro", sans-serif; */
   font-family: "Source Sans Pro";
 }
+
 body {
   /* width: 100vw; */
   /* overflow-x: hidden; */
 }
+
 /* @@@ */
 .for-margin-issue {
   display: inline-block;
 }
+
 /* @@@ */
 
 .container {
@@ -36,20 +39,24 @@ body {
   margin: 0 auto;
   border: 2px solid transparent;
 }
+
 .container2 {
   max-width: 1254px;
   margin: 0 auto;
   border: 2px solid transparent;
 }
+
 .container-no-b {
   /* border: 1px solid red; */
   width: 1254px;
   margin: 0 auto;
 }
+
 .flex {
   display: flex;
   align-items: center;
 }
+
 .flex-start {
   display: flex;
   align-items: flex-start;
@@ -60,6 +67,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .flex-bb {
   display: flex;
   align-items: flex-start;
@@ -71,14 +79,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .flex-d {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+
 .flex-e {
   display: flex;
 }
+
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -94,8 +105,94 @@ body {
 .pro-cat {
   display: none;
 }
+
 .ex-br-ir {
   display: none;
 }
-.owl-carousel {
+
+
+
+/* owl-carousel   */
+
+button.owl-next,
+.owl-prev {
+  background: #798791 !important;
+  width: 21px;
+  height: 34px;
+  position: relative;
+}
+
+button.owl-next:hover,
+.owl-prev:hover {
+  background: #d51d25 !important;
+}
+
+.trending .owl-nav span {
+  color: white;
+  font-size: 34px;
+  height: 34px;
+  position: absolute;
+  top: -8px;
+  left: 6px;
+}
+
+.trending.owl-theme .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  bottom: 41px;
+}
+
+.trending button.owl-prev {
+  margin-left: -6.5px !important;
+}
+
+
+@media screen and (max-width:800.9px) {
+  .trending button.owl-prev {
+    margin-left: -17.5px !important;
+  }
+}
+
+
+
+/* ///sec4 */
+
+.sec4 .owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+  /* position: relative; */
+}
+
+.sec4 .owl-prev {
+  position: absolute;
+  top: 163px;
+  left: -26px;
+}
+
+.sec4 .owl-next {
+  position: absolute;
+  top: 163px;
+  right: -26px;
+}
+
+.sec4 .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .sec4 .container{
+  background: lightgreen;
+} */
+
+.sec4 .owl-carousel .owl-item img {
+  width: unset !important;
+}
+
+.sec4 .owl-carousel .owl-stage{
+  display: flex;
+  justify-content: center;
 }
