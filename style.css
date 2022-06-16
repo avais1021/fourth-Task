@@ -116,7 +116,7 @@ body {
 
 button.owl-next,
 .owl-prev {
-  background: #798791 !important;
+  background: #05396e !important;
   width: 21px;
   height: 34px;
   position: relative;
@@ -162,7 +162,6 @@ button.owl-next:hover,
 .sec4 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: block !important;
-  /* position: relative; */
 }
 
 .sec4 .owl-prev {
@@ -195,4 +194,30 @@ button.owl-next:hover,
 .sec4 .owl-carousel .owl-stage{
   display: flex;
   justify-content: center;
+}
+
+
+/* ///sec6 */
+
+
+.sec6 .owl-prev {
+  position: absolute;
+  top: 163px;
+  left: 0;
+}
+
+.sec6 .owl-next {
+  position: absolute;
+  top: 163px;
+  right: 0;
+}
+
+.sec6 .owl-carousel .owl-item img {
+  width: unset !important;
+}
+
+.sec6 .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

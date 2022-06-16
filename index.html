@@ -458,7 +458,7 @@
         <h2 class="similar-heading">
           Knowledge <span class="similar-heading-span"> center </span>
         </h2>
-        <div class="invest-parent flex-b">
+        <div class="invest-parent flex-b owl-carousel owl-theme sec6-caro">
           <div class="invest-child">
             <h4>
               How to tackle expensive medical <br />
@@ -1228,6 +1228,30 @@
           }
         }
       })
+
+
+       // sec6//////////////////////////////////////////////////////////
+       $('.sec6-caro').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        // autoplay: true,
+        // autoplayTimeout: 5000,
+        // autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1125: {
+            items: 3
+          }
+        }
+      })
+
 
 
     </script>
