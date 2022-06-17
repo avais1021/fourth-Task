@@ -2,9 +2,7 @@
 }
 .trending {
   position: relative;
-  max-width: 965px;
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
   margin: 40px auto 0 auto;
 }
 .content-trending {

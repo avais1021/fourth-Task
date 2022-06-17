@@ -1,13 +1,13 @@
 .sec11 {
-  height: 196px;
+  /* height: 196px; */
   background: #eaedef;
 }
 .stay-update {
-  height: 196px;
+  /* height: 196px; */
 }
 .stay-child-box {
-  width: 995px;
-  height: 196px;
+  max-width: 995px;
+  min-height: 196px;
 }
 .stay-child-1 {
   width: 304px;

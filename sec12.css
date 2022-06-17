@@ -46,7 +46,12 @@
   color: white;
   background: #d51d25;
   text-decoration: none;
-  padding: 7px 25px;
+  /* padding: 7px 25px; */
+  width: 146px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .a-buy-o img {
   position: relative;

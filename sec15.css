@@ -1,20 +1,20 @@
 .sec15 {
-  height: 510px;
+  /* height: 510px; */
 }
 .sec15-1 {
   height: 68.87px;
   background: #f2f4f6;
 }
 .sec15-2 {
-  height: 325px;
+  min-height: 325px;
 }
 .sec15-3 {
-  height: 116px;
+  min-height: 116px;
   background: #eaedef;
 }
 /* ///// */
 .do-not-p {
-  width: 1195px;
+  max-width: 1195px;
   height: 68.87px;
 }
 .do-not-p p {
@@ -39,7 +39,7 @@
 }
 
 .standard-life-p {
-  width: 1195px;
+  max-width: 1195px;
   height: 325px;
 }
 .standard-life-p p {

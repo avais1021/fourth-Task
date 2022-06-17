@@ -4,7 +4,7 @@
 }
 
 .popular-parent {
-  width: 1039px;
+  max-width: 1039px;
   height: 329px;
   margin: 0 auto;
   display: flex;

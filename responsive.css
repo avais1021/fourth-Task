@@ -51,19 +51,20 @@
 
   .protect::before {
     opacity: 0.7;
-    height: 400px;
+    height: 100%;
   }
 
   .protect {
     width: 92%;
-    height: 400px;
+    height: auto;
     margin: 0 auto;
     align-items: flex-start;
   }
 
   .text-protect {
     width: 92%;
-    height: 358px;
+    height: auto;
+    padding-bottom: 43px;
   }
 
   .know-calculate {
@@ -259,12 +260,12 @@
   }
 
   .nri-right {
-    width: 275px;
+    /* width: 275px; */
     flex-direction: column;
   }
 
   .nri-service {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .copy-call-us-nri1 {
@@ -300,7 +301,7 @@
     height: 528px;
     margin-left: 4%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .stay-child-3-copy {
@@ -373,7 +374,7 @@
   }
 
   .sec15-3 {
-    height: 197px;
+    /* height: 197px; */
   }
 
   .ex-br-ir {
@@ -403,6 +404,7 @@
 
   .sec15-2 {
     height: 130px;
+    min-height: unset;
   }
 
   .standard-life-p {
@@ -423,7 +425,8 @@
   }
 
   .life {
-    width: 88%;
+    /* width: 88%; */
+    width: 100%;
     /* overflow-x: scroll; */
   }
 
@@ -441,21 +444,21 @@
   }
 
   .awards-parent.flex-b {
-    width: 798px;
+    /* width: 798px; */
   }
 
   .rsp-award-parent {
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
 
   .parent-click-2-groups {
-    width: 895px;
+    /* width: 895px; */
   }
 
   .rsp-parent-click {
     width: 100%;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
   }
 
   .click-2-groups {

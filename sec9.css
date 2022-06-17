@@ -11,7 +11,7 @@
 }
 .childs-awards-parent {
   position: relative;
-  width: 350px;
+  width: 340px;
   height: 420px;
   background: white;
 }
@@ -94,4 +94,8 @@
 }
 .pra-change {
   line-height: 1.2;
+}
+
+.rsp-award-parent {
+  margin-top: 61px;
 }

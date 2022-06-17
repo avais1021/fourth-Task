@@ -546,7 +546,7 @@
           insurance.
         </p>
         <div class="rsp-human-parent">
-          <div class="human-parent flex-b ">
+          <div class="human-parent flex-b owl-carousel owl-theme sec6-caro ">
             <div class="human-child">
               <div class="human-image-div flex-c">
                 <img src="images/sec7-images/sec7-img-1.png" alt="">
@@ -645,10 +645,11 @@
       </div>
       </div>
     </section>
-    <section class="sec9 flex-c">
+  
+    <section class="sec9">
       <div class="container2 ">
         <div class="rsp-award-parent">
-          <div class=" awards-parent  flex-b">
+          <div class=" awards-parent  flex-b     owl-carousel owl-theme sec9-caro">
             <div class="childs-awards-parent">
               <div class="img-1-1"><img src="images/sec9-images/sec9-img-1-1.png" alt=""></div>
               <h2 class="similar-heading similar-copy2">
@@ -784,10 +785,10 @@
 
 
           <!-- ******THREE****** -->
-          <div class="childs-online-parent">
+          <div class="childs-online-parent  three-child-on-parent">
             <p class="heading-child">SERVICES FOR <span>POLICYHOLDERS</span> </p>
             <div class="call-us call-us-copy">
-              <div class="left-call flex-start">
+              <div class="left-call flex-start three-left-call">
                 <img src="images/sec10-images/call-us.svg" alt="call">
                 <p>Call us <br> <span class="all-days"> All days 9am to 9pm (Local charges applicable) Do not prefix any
                     country code e.g. +91 or 00.</span></p>
@@ -931,14 +932,14 @@
           HDFC LIFE <span class="similar-heading-span"> ONLINE INSURANCE PLANS </span>
         </h2>
         <div class="rsp-parent-click">
-          <div class="parent-click-2-groups flex-b">
+          <div class="parent-click-2-groups flex-b owl-carousel owl-theme sec12-caro">
             <div class="click-2-groups">
               <p class="first-p-click">HDFC Life Click 2 Protect Plus</p>
               <p class="second-p-click">A term insurance plan that provides you <br> comprehensive protection at an <br>
                 affordable.
                 <span id="click-2-span"> Know More </span>
               </p>
-              <div class="a-buy-o"><a href="">BUY ONLINE</a></div>
+              <div class="a-buy-o"><a href="">BUY ONLINE<img src="images/sec10-images/cancera-a-arrow.svg" alt=""></a></div>
             </div>
             <!-- ** -->
             <div class="click-2-groups">
@@ -946,7 +947,7 @@
               <p class="second-p-click">An online unit linked plan with life <br> insurance coverage. <span
                   id="click-2-span">
                   Know More </span></p>
-              <div class="a-buy-o"><a href="">BUY ONLINE</a></div>
+              <div class="a-buy-o"><a href="">BUY ONLINE<img src="images/sec10-images/cancera-a-arrow.svg" alt=""></a></div>
             </div>
             <!-- ** -->
             <div class="click-2-groups">
@@ -965,7 +966,7 @@
                 <br>
                 diagnosed. Know More <span id="click-2-span"> Know More </span>
               </p>
-              <div class="a-buy-o"><a href="">BUY ONLINE</a></div>
+              <div class="a-buy-o"><a href="">BUY ONLINE<img src="images/sec10-images/cancera-a-arrow.svg" alt=""></a></div>
             </div>
           </div>
         </div>
@@ -1232,6 +1233,74 @@
 
        // sec6//////////////////////////////////////////////////////////
        $('.sec6-caro').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        // autoplay: true,
+        // autoplayTimeout: 5000,
+        // autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1125: {
+            items: 3
+          }
+        }
+      })
+
+
+       // sec7//////////////////////////////////////////////////////////
+       $('.sec7-caro').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        // autoplay: true,
+        // autoplayTimeout: 5000,
+        // autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1125: {
+            items: 3
+          }
+        }
+      })
+
+        // sec9//////////////////////////////////////////////////////////
+        $('.sec9-caro').owlCarousel({
+        loop: true,
+        margin: 15,
+        nav: true,
+        dots: false,
+        // autoplay: true,
+        // autoplayTimeout: 5000,
+        // autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1125: {
+            items: 3
+          }
+        }
+      })
+
+
+       // sec9//////////////////////////////////////////////////////////
+       $('.sec12-caro').owlCarousel({
         loop: true,
         margin: 15,
         nav: true,

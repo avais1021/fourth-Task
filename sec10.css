@@ -1,9 +1,9 @@
 .sec10 {
   background-color: #005e9e;
-  height: 543px;
+  min-height: 543px;
 }
 .howcanwe {
-  height: 543px;
+  min-height: 543px;
 }
 .how-heading {
   font-size: 20px;
@@ -13,7 +13,7 @@
   margin-top: 44px;
 }
 .buy-online-parent {
-  height: 266px;
+  min-height: 266px;
   background: url(images/sec10-images/sec10-img-bg.png) no-repeat center
     center/cover;
   margin-top: 35px;
@@ -93,17 +93,17 @@
 }
 /* ************************* */
 .right-call-copy {
-  width: 95px;
-  position: relative;
-  top: -56px;
-  left: 247px;
+  /* width: 95px; */
+  /* position: relative; */
+  /* top: -56px; */
+  /* left: 247px; */
 }
 .call-us-copy {
   height: 80px;
 }
 .nri-service {
   background: white;
-  width: 669px;
+  max-width: 669px;
   height: 78px;
   margin-top: 23px;
 }
