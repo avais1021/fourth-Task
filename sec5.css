@@ -55,7 +55,7 @@
   margin-top: 47px;
 }
 .fast-eco-parent {
-  width: 851px;
+  max-width: 851px;
   margin: 0 auto;
 }
 .fast-child {

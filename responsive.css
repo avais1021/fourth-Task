@@ -108,7 +108,7 @@
   }
 
   .section2 .support {
-    width: 90%;
+    width: 100%;
   }
 
   .pro-cat {
@@ -124,7 +124,7 @@
   }
 
   .trending {
-    margin-left: 11px;
+    /* margin-left: 11px; */
 }
 
   .content-trending {
@@ -207,9 +207,9 @@
     font-size: 17px;
   }
 
-  .sec8 {
+  /* .sec8 {
     height: 811px;
-  }
+  } */
 
   .life-insurance-parent {
     display: unset;

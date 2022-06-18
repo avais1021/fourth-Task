@@ -1,20 +1,21 @@
 .sec8 {
-  height: 428px;
+  min-height: 428px;
 }
 .similar-copy1 {
   margin: 20px auto;
 }
 
 .life-insurance-parent {
+  align-items: unset !important;
 }
 .left-child {
   background: #005e9e;
   width: 55%;
-  min-height: 340px;
+  height: 340px;
 }
 .right-child {
   width: 45%;
-  height: 340px;
+  min-height: 340px;
 }
 .r-c {
   background: #0368ad;
@@ -28,7 +29,7 @@
   
   position: relative;
   border: 1px solid #8addff;
-  width: 607px;
+  max-width: 607px;
   /* min-height: 210px; */
   padding-bottom: 32px;
   margin-top: 40px;
