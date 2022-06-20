@@ -172,6 +172,10 @@ button.owl-next:hover,
   }
 }
 
+.owl-stage {
+  transition: all 1.50s ease 0s !important;
+}
+
 
 
 
