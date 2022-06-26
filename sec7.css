@@ -24,7 +24,7 @@
 .human-child {
   position: relative;
   width: 250px;
-  height: 160px;
+  min-height: 160px;
 }
 .human-image-div {
   height: 100px;
